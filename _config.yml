@@ -1,11 +1,11 @@
 encoding: utf-8
 
 # SEO相关信息
-title: 名字
-description: 描述
-keywords: 关键字,逗号分割
-author: 作者名字
-footerText: '脚注'
+title: Fujao-time 时报
+description: 啊wee改哈鞥嫦娥我刚不疤痕处哈维楚王嗡阿格王朔！！！111111
+keywords: 
+author: Fujao-time 编辑部
+footerText: '(C) 2020 FJT / Under CC BY-NC-ND 4.0 & SATA License'
 
 # 链接格式
 permalink: /posts/:title.html
@@ -19,8 +19,8 @@ exclude: ['CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.
 
 # 域名配置
 # baseurl配置,如果网站部署在根目录下的其他目录中，请设置为 /目录名
-domainUrl: 'http://blog.tmaize.net'
-baseurl: ''
+domainUrl: 'http://fujao-time.qmqaq.top'
+baseurl: 'news'
 
 # 菜单
 menu:
@@ -54,5 +54,5 @@ extMath: false
 
 # 友情链接
 links:
-  - title: Example
-    url: https://example.com
+  - title: Cytoid
+    url: https://cytoid.io
