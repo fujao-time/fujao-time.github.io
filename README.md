@@ -1,8 +1,6 @@
-# 介绍
+### modified by billzhou233
 
-[![Language](https://img.shields.io/badge/Jekyll-Theme-blue)](https://github.com/TMaize/tmaize-blog)
-[![license](https://img.shields.io/github/license/TMaize/tmaize-blog)](https://github.com/TMaize/tmaize-blog)
-[![GitHub stars](https://img.shields.io/github/stars/TMaize/tmaize-blog?style=social)](https://github.com/TMaize/tmaize-blog)
+# 介绍
 
 一款 jekyll 主题（[GitHub 地址](https://github.com/TMaize/tmaize-blog)），简洁纯净(主题资源请求<20KB)，未引入任何框架，秒开页面，支持自适应，支持全文检索
 
@@ -55,7 +53,9 @@ categories: [分类1, 分类2]
 文章内容，Markdown格式
 ```
 
-文章资源放在`posts`目录，如文章文件名是`2019-05-01-theme-usage.md`，则该篇文章的资源需要放在`posts/2019/05/01`下,在文章使用时直接引用即可。当然了，写作的时候会提示资源不存在忽略即可
+文章资源放在`posts`目录，如文章文件名是`2019-05-01-theme-usage.md`，则该篇文章的资源需要放在`posts/2019/05/01`下（长链接格式）或`posts`下（短链接格式）,在文章使用时直接引用即可。当然了，写作的时候会提示资源不存在忽略即可。
+
+另外，图片的话可以直接使用外链如[路过图床](https://imgchr.com)等。
 
 ```md
 ![这是图片](xxx.png)
