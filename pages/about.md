@@ -20,4 +20,4 @@ Fujao-time 是由社区音游 Cytoid 的玩家自发组织的，100% 免费且�
 
 其余部分均采用 CC BY-NC-ND 4.0 许可证并附加 The Star And Thank Author 许可证 (SATA) 授权，许可证详情请查看源仓库的 `LICENSE.md` 文件。
 
-本站采用 [TMize-Blog](https://github.com/TMaize/tmaize-blog/) 的 Jekyll 模板构建，模板有改动。
+本站采用 [TMaize-Blog](https://github.com/TMaize/tmaize-blog/) 的 Jekyll 模板构建，模板有改动。
