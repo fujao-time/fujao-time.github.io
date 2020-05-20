@@ -1,6 +1,6 @@
 ---
 layout: mypost
-title: 【WIP】Cytoid & Cy2Unity 写谱 Timing 教程
+title: Cytoid & Cy2Unity 写谱 Timing 教程
 categories: [写谱]
 ---
 
@@ -19,6 +19,10 @@ Malody 是由一群热爱音乐的人开发的多平台音游，谱面来自玩�
 ~Click The Circles~
 
 棒到不行的 PC 端免费音乐游戏，内置的编辑器可以手动测量 BPM & Offset。
+
+### Adobe Audition
+
+专业的音频编辑软件，功能很多，但是体积较大，启动也慢。~~Adobe 爬~~
 
 ## 1. 获取 BPM & Offset 的方法
 
@@ -82,11 +86,29 @@ Malody 是由一群热爱音乐的人开发的多平台音游，谱面来自玩�
 
 不过这个方法动作要领很简单，只需要跟着节拍点就可以了！！1111
 
+【贵阳一下...】
+
 ### 2. 校准时间轴 For Cy2Unity
 
-有的编辑器不支持插入 Offset（例如 Cy2U），此时需要使用 Audition 等软件手动校准时间轴。
+有的编辑器不支持插入 Offset（例如 Cy2U），此时需要使用 Audition 等软件手动校准时间轴，本文使用 2017 版作示范，其他版本或音频剪辑软件的操作类似，只要有节拍器功能就行。
 
-【在做了！！1111】
+关于 Audition 的基本知识请自行查看教程，此处不赘述。
+
+打开 Audition，文件 - 新建 - 多轨会话，采样率选择 44100，其余随便，进入多轨视图后右键时间码，选择【小节与节拍】，位置如图：
+
+![](https://cdn.jsdelivr.net/gh/fujao-time/fujao-time.github.io/res/timing/timing9.png)
+
+同一菜单中，选择【编辑节奏】，在左侧输入乐曲的 BPM 和拍子记号，界面如图，其中，【节奏】一栏填写第一段 BPM：
+
+![](https://cdn.jsdelivr.net/gh/fujao-time/fujao-time.github.io/res/timing/timing10.png)
+
+点击该面板下方节拍器面板右侧的节拍器按键，激活节拍器，此时若播放应该可听到节拍，并且在轨道 1 上方会出现节拍器轨道。
+
+接下来将乐曲拖入到轨道 1 中，放大时间轴，将乐曲第一拍对准时间轴上某个小节的起始位置。播放，确保一直到整个乐曲（或第一个变速区段）结束，节奏都与节拍器符合。有时候歌曲比较长，需要进行剪辑，请保证剪完的每一个部分都与节拍器符合。
+
+接下来将节拍器取消激活，文件 - 导出 - 多轨混音 - 整个会话，格式选 OGG 或 WAV，点击导出即可在 Cy2U 等编辑器中使用。
+
+~~当然，我是直接用 PCtyx，所以不用考虑这种问题，直接输入 Offset 即可。至于为什么我会这个，因为... Bestdori 的自制谱限制比 Ctd 多多了，不止 Offset 那么简单。~~
 
 ## Credits
 
