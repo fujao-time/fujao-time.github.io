@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: mypost
 title: 【WIP】Cytoid & Cy2Unity 写谱 Timing 教程
 categories: [写谱]
 ---
