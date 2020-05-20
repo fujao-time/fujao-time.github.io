@@ -84,4 +84,12 @@ Malody 是由一群热爱音乐的人开发的多平台音游，谱面来自玩�
 
 ### 2. 校准时间轴 For Cy2Unity
 
+有的编辑器不支持插入 Offset（例如 Cy2U），此时需要使用 Audition 等软件手动校准时间轴。
+
 【在做了！！1111】
+
+## Credits
+
+作者：【冰糖酱】aka BillZhou233
+
+感谢 osu! & Malody & Adobe Audition 友情出演
