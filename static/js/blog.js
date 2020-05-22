@@ -220,7 +220,8 @@ blog.initClickEffect = function (textArr) {
     if (tagName == 'a') {
       return
     }
-    var text = textArr[parseInt(Math.random() * textArr.length)]
+    nowindex = ((now + 1) >= textArr.length)? 0: (now + 1)
+    var text = textArr[parseInt(nowindex)]
     var dom = createDOM(text)
 
     document.body.appendChild(dom)
