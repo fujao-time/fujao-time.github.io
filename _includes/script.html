@@ -8,9 +8,10 @@
 {%- if site.extClickEffect %}
 <!-- 点击页面文字冒出特效 -->
 <script>
+var nowindex = 0
 ;(function(){
   var textArr = ['啊', 'wee', '改', '哈', '鞥', '嫦', '娥', '我', '刚', '不', '疤', '痕', '处', '哈', '维', '楚', '王', '嗡', '阿', '格', '王', '朔']
-  var nowindex = textArr.length
+  nowindex = textArr.length
   window.blog.initClickEffect(textArr)
 })()
 </script>
